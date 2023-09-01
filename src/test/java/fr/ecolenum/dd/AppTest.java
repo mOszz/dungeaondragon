@@ -1,20 +1,17 @@
 package fr.ecolenum.dd;
 
-import static org.junit.Assert.assertTrue;
-
+import fr.ecolenum.dd.database.Database;
+import fr.ecolenum.dd.dice.LoadedDice;
 import org.junit.Test;
+
+import java.sql.Connection;
+
+import static org.junit.Assert.*;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class AppTest
 {
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
+
 }
